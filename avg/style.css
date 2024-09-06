@@ -1,0 +1,182 @@
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+html {
+  font-size: 62.5%;
+}
+/* Tac dong chung */
+.header.fixed
+{
+    position: sticky;
+    top: -28px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.body-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 8px ;
+}
+.header {
+  background-color:beige;
+}
+.main-content {
+  width: 100rem;
+  margin: 0 auto;
+  max-width: calc(100% - 50px);
+}
+/* Tac dong rieng */
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-header .logo {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.body-header .cart {
+  margin-left: auto;
+}
+.nav a {
+  padding: 1.5rem;
+  color: black;
+  position: relative;
+  font-size: 1.2rem;
+}
+.nav li.active a,.nav a:hover {
+  text-shadow: 1px 0 0 black;
+}
+.nav li.active a::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  display: block;
+  width: 5rem;
+  height: 0.2rem;
+  background-color: black;
+}
+.nav {
+  margin:0 1.5rem;
+
+}
+.body-header .search {
+  position: relative;
+}
+.fa-magnifying-glass {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+.search .content {
+  border-radius: 10px;
+  padding: 5px;
+}
+.body-header .cart {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border-radius: 50%;
+}
+
+/* main */
+/* code chung */
+.main .baohanh
+{
+    padding:10px 0 ;
+}
+.main .baohanh
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.baohanh .bh{
+    text-align: center;
+    margin: auto;
+}
+.main
+{
+    background-color: grey;
+}
+/* code riêng */
+.baohanh .bh .icon
+{
+font-size: 4rem;
+display: block;
+}
+.baohanh .bh .bh-l1
+{
+    display: block;
+    margin-top: 10px;
+    color: rgba(255, 255, 0, 0.66);
+    font-size: 1.5rem;
+}
+.baohanh .bh .bh-l2
+{
+    display: block;
+    margin-top: 7px;
+}
+
+/* Trung bay san pham */
+/* code chung */
+.trungbay-sanpham{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.trungbay .trungbay-sanpham .sanpham
+{
+    width: 10%;
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+.trungbay .sanpham img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+
+/* code rieng */
+.trungbay .sanpham .img2{
+    padding: 5px;
+}
+.trungbay .thongbao
+{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+.trungbay .trungbay-sanpham
+{
+    margin-top: 10px;
+}
+.trungbay .trungbay-sanpham span
+{
+    display: block;
+}
+.trungbay .trungbay-sanpham .sanpham
+{
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
